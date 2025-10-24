@@ -1,18 +1,19 @@
-# Data Pipeline Dashboard
+# Data Pipeline & Monitoring Dashboard
 
-A **hands-on data engineering and analytics project** built with **Python, Pandas, and Streamlit**.  
-It simulates a small end-to-end data pipeline from raw log ingestion to data cleaning, anomaly detection, and interactive visualization.  
-The goal is to **learn by doing** and practice how each part of a simple data workflow connects together in a clear and maintainable way.
+A **hands-on data engineering & monitoring project** built with **Python, Pandas, and Streamlit**.  
+It simulates an end-to-end workflow: from raw log ingestion and cleaning to **anomaly detection** and a **monitoring dashboard** with key metrics.  
+The goal is to **learn by doing** and practice how each part connects in a clear, maintainable way.
 
 ---
 
 ## Project Overview
 
-The **Data Pipeline Dashboard** is a small internal tool that:
+The **Data Pipeline & Monitoring Dashboard** is a small internal tool that:
 
 -  Ingests raw **Apache/Nginx log files** (or any text-based log dataset)
 -  Cleans and transforms the data into structured form (with Pandas)
 -  Detects anomalies and suspicious activity using simple logic rules
+- **Monitors key metrics** (error rate, requests/hour, top IPs, status breakdown)
 -  Displays insights and statistics in an interactive Streamlit dashboard
 
 It’s inspired by the type of workflow used in **data, cyber, or DevOps teams**, but simplified to show core concepts clearly.
@@ -112,23 +113,12 @@ Then open the link shown in the terminal and:
 
 ---
 
-##  Features
+## Features
 
-**Log ingestion** (supports `.log` or `.txt`)
-
-**Data transformation**: converts timestamps, cleans numeric fields, adds derived columns
-
-**Anomaly detection**:
-- Bursts of 401/403 (failed logins)
-- Access to sensitive paths 
-- Abnormally high request volume from a single IP
-
-**Dashboard** built with Streamlit:
-- Requests per hour chart
-- HTTP status category breakdown
-- Top 10 active IPs
-- Error rate metrics
-- Download buttons for processed data & anomalies
+**Log ingestion** — supports `.log` or `.txt`  
+**Data transformation** — timestamp parsing, numeric cleanup, derived columns  
+**Anomaly detection** — bursts of 401/403, access to sensitive paths, unusually high request volume  
+**Monitoring dashboard (Streamlit)** — requests/hour, HTTP status breakdown, top IPs, error rate, downloads for processed data & findings
 
 ---
 
