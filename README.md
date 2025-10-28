@@ -1,8 +1,22 @@
 # Data Pipeline & Monitoring Dashboard
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-pipeline-monitoring-dashboard.streamlit.app/)
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+  
+🔗 **Live Demo:** [data-pipeline-monitoring-dashboard.streamlit.app](https://data-pipeline-monitoring-dashboard.streamlit.app/)
+
+
 A **hands-on data engineering & monitoring project** built with **Python, Pandas, and Streamlit**.  
 It simulates an end-to-end workflow: from raw log ingestion and cleaning to **anomaly detection** and a **monitoring dashboard** with key metrics.  
 The goal is to **learn by doing** and practice how each part connects in a clear, maintainable way.
+
+---
+
+## 🚀 Live Demo & Deployment
+
+The app is deployed on **Streamlit Community Cloud** and publicly accessible here:
+
+👉 **[Launch the Dashboard](https://data-pipeline-monitoring-dashboard.streamlit.app/)**
 
 ---
 
